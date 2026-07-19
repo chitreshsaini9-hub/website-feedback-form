@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <head>     
+              <h1>  Website Feedback Form</h1>
+    </head>
+    <br>
+    <p>   Name :
+    
+    <form action="/action.php">
+        <input type="text" placeholder="Enter your Name">
+    </form>
+    </p>
+    <br><br>
+    <p>  Email :
+
+        <form action="/action.php">
+            <input type="text" placeholder="Enter your Email">
+        </form>
+    </p>
+    <br><br>
+    <p>
+        <h4>
+            How would you rate your experience?
+        </h4>
+    </p>
+     <form action="/action.php">
+        <label for="id1">
+        <input type="radio" value="Excellent" name="class" id="id1">Excellent
+        <br>
+        <input type="radio" value="Good" name="class" id="id1">Good
+        <br>
+        <input type="radio" value="Poor" name="class" id="id1">Poor
+        </label>
+     </form>
+     <br><br>
+     <p>
+        <h4>
+            Which features did you see?
+        </h4>
+     </p>
+     <form action="/action.php">
+        <label for="101">
+        <input type="checkbox" value="Blog" name="features" id="101">Blog
+        <br>
+        <input type="checkbox" value="Forum" name="feature" id="101">Forum
+        <br>
+        <input type="checkbox" value="Documentation" name="feature" id="101">Documentation
+        </label>
+     </form>
+     <br><br>
+     <p>
+        <h4> 
+            What would you like us to improve?
+        </h4>
+     </p>
+     <select name="Changes" id="city">
+        <option value="Design">Design</option>
+        <option value="Content">Content</option>
+        <option value="Navigation">Navigation</option> 
+        <option value="performance">performance</option>
+    </select>
+    <p>
+        <h4>
+            Additional Comments:
+        </h4>
+    </p>
+    <textarea name="Feedback" id="101" placeholder="please give your Feedback here" rows="5">Feedback</textarea>
+    </form>
+    <br><br>
+    <input type="submit" value="Submit">
+    </body>
+</html>
